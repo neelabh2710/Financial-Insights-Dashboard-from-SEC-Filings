@@ -78,7 +78,7 @@ def get_filing_data(ticker, years):
     Returns:
         DataFrame: The DataFrame containing consolidated filing data.
     """
-    email = "udishj@gmail.com"
+    email = "neelabhv3@gmail.com"
     dl = Downloader("Company", email)
     df = pd.DataFrame()
 
